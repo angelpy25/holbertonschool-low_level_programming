@@ -18,7 +18,7 @@ int main(void)
 	c = 'a';
 	i = 1;
 	li = 5;
-	ll1 = 20;
+	lli = 20;
 	f = 2.0;
 	printf("Size of a char: %zu byte(s)\n", sizeof(c));
 	printf("Size of an int: %zu byte(s)\n", sizeof(i));
