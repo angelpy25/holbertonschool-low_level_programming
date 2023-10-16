@@ -10,11 +10,10 @@ int main(void)
 
 	for (a = 'a'; a <= 'z'; ++a)
 	{
-		if( a != 'q' || a != 'e')
+		i f(a != 'q' || a != 'e')
 		{
 			putchar(a);
 		}
 	}
-	return 0;
+	return (0);
 }
-		
