@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 0; i < 16; i++)
 	{
-		putchar(ix64);
+		putchar("%x"i);
 	}
 	return (0);
 }
