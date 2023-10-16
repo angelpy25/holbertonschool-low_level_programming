@@ -8,7 +8,7 @@ int main(void)
 {
 	int i;
 
-	char A = 'A';
+	char A = 'a';
 
 	for (i = 0; i < 16; i++)
 	{
@@ -17,7 +17,10 @@ int main(void)
 			putchar(A);
 			A++;
 		}
+		else
+		{
 		putchar('0' + i);
+		}
 	}
 	return (0);
 }
