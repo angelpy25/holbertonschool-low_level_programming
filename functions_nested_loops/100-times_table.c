@@ -28,8 +28,8 @@ void print_times_table(int n)
 				{
 					printf(",  %d", m);
 				}
+				printf('\n');
 			}
-			_putchar('\n');
 		}
 	}
 }
