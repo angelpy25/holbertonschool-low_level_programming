@@ -14,29 +14,25 @@ void times_table(void)
 			m = i * j;
 			mfirst = m / 10;
 			mlast = m % 10;
-			if (j == 9 && m < 10)
+			if (j == 0)
 			{
-				_putchar('0' + m);
-			}
-			else if (j == 9 && m > 10)
-			{
-				_putchar('0' + mfirst);
-				_putchar('0' + mlast);
+				_putchar('0');
 			}
 
-			else if (m >= 10)
+			if (m >= 10)
 			{
-				_putchar('0' + mfirst);
-				_putchar('0' + mlast);
 				_putchar(',');
 				_putchar(' ');
+				_putchar('0' + mfirst);
+				_putchar('0' + mlast);
+
 			}
 			else
 			{
-			_putchar('0' + m);
-			_putchar(',');
-			_putchar(' ');
-			_putchar(' ');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar('0' + m);
 			}
 		}
 		_putchar('\n');
