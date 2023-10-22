@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 
 /**
  * mul - multiply to parameters given
