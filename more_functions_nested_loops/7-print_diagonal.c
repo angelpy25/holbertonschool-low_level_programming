@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *print_diagonal - print a diagonal using \
- *@n: how many time diagonal gonna be printed
+ * print_diagonal - print a diagonal with a special character and spaces
+ * @n: how much it will print
  */
-
 void print_diagonal(int n)
 {
 	int i, j;
@@ -18,4 +17,4 @@ void print_diagonal(int n)
 	_putchar('\\');
 	_putchar('\n');
 	}
-}	
+}
