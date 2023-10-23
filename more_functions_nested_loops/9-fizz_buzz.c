@@ -22,3 +22,4 @@ void print_FizzBuzz(void)
 		else
 			printf("%d ", i);
 	}
+}
