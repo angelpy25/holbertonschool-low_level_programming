@@ -1,11 +1,11 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * print_FizzBuzz - print from 1 to 100 and print fizz is it is multiple of 3
+ * main - print from 1 to 100 and print fizz is it is multiple of 3
+ * Return: 0
  */
 
-void print_FizzBuzz(void)
+int main(void)
 {
 	int i;
 
@@ -22,4 +22,5 @@ void print_FizzBuzz(void)
 		else
 			printf("%d ", i);
 	}
+	return (0);
 }
