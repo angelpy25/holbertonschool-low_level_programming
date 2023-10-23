@@ -22,4 +22,6 @@ void print_triangle(int size)
 		count -= 1;
 	}
 	}
+	else
+		_putchar('\n');
 }
