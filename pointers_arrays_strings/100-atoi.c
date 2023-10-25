@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _atoi - change a string into integer
+ * @s: string given
+ * Return: the integer inside the string
+ */
+
 int _atoi(char *s)
 {
 	int i, change = 0, neg = 0, pos = 0;
@@ -13,7 +19,7 @@ int _atoi(char *s)
 		if ((s[i] >= 48 && s[i] <= 57))
 		{
 			change = change * 10 + s[i] - '0';
-			if (s[i + 1] < 48 || s[i + 1] > 57 )
+			if (s[i + 1] < 48 || s[i + 1] > 57)
 				break;
 		}
 	}
