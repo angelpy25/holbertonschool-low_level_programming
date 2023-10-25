@@ -14,8 +14,6 @@ int _atoi(char *s)
 	{
 		if (s[i] == '-')
 			neg++;
-		if (s[i] == '+')
-			pos++;
 		if ((s[i] >= 48 && s[i] <= 57))
 		{
 			change = change * 10 + s[i] - '0';
@@ -23,7 +21,7 @@ int _atoi(char *s)
 				break;
 		}
 	}
-	if (neg > pos)
+	if (neg % 2 == 1)
 		return (-1 * change);
 	else
 		return (change);
