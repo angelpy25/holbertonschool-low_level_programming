@@ -14,14 +14,18 @@ char *cap_string(char *str)
 		str[0] = str[0] - 32;
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if ((str[i] >= 1 && str[i] <= 47) || (str[i] >= 58 && str[i] <= 63))
+		if (str[i] == '-')
+		{
+			continue;
+		}
+		else if ((str[i] >= 1 && str[i] <= 47) || (str[i] >= 58 && str[i] <= 63))
 		{
 			if (str[i + 1] >= 97 && str[i + 1] <= 122)
 				str[i + 1] = str[i + 1] - 32;
 			else
 				continue;
 		}
-		if ((str[i] >= 91 && str[i] <= 96) || (str[i] >= 123 && str[i] <= 126))
+		else if ((str[i] >= 91 && str[i] <= 96) || (str[i] >= 123 && str[i] <= 126))
 		{
 			if (str[i + 1] >= 97 && str[i + 1] <= 122)
 				str[i + 1] = str[i + 1] - 32;
