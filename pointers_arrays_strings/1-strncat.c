@@ -1,9 +1,17 @@
 #include "main.h"
 
+/**
+ * _strncat - concatenate a string given a number of bytes
+ * @dest: destination string
+ * @src: string that will be concatenate
+ * @n: number of bytes
+ * Return: the string concatenate
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
+
 	for (i = 0; dest[i] != '\0'; i++)
 	{
 	}
