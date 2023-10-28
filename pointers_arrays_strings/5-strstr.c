@@ -3,7 +3,7 @@
 
 /**
  * _strstr - find a substring
- * @haystack- string given
+ * @haystack: string given
  * @needle: substring that will be search
  * Return: The substring found or NULL
  */
