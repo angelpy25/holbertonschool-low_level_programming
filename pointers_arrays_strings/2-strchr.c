@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 /**
  * _strchr - locates a character in a string
  * Return: a pointer to the first occurance of the character @c in the string
