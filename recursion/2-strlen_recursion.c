@@ -3,7 +3,7 @@
 /**
  * _strlen_recursion - check how long is the string
  * @s: string given
- * Return: the count of the length or 0 if NULL
+ * Return: the count of the length
  */
 
 int _strlen_recursion(char *s)
