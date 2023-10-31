@@ -4,7 +4,7 @@
  * _pow_recursion - calculates the pow of x to y
  * @x: number given
  * @y: power of x
- * Return the number of the result
+ * Return: the number of the result
  */
 
 int _pow_recursion(int x, int y)
