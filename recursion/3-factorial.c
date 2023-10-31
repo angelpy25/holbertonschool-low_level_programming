@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * factorial - factorial of a number
+ * @n: number given
+ * Return: the factorial or -1 if it is lower than 0
+ */
 
 int factorial(int n)
 {
