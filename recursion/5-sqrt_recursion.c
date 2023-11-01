@@ -11,7 +11,7 @@ int square_root(int a, int b)
 {
 	if (b * b > a)
 		return (-1);
-	else if (b * b < a)
+	else if (b * b == a)
 		return (b);
 	else
 		return (square_root(a, b + 1));
