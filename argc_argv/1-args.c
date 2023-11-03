@@ -6,7 +6,6 @@ int main(int argc, char __attribute__((unused)) **argv)
 
 	while(argc--)
 	{
-		*argv++;
 		count++;
 	}
 	printf("%d\n", count);
