@@ -14,7 +14,7 @@ int pmf(int a, int b)
 	else if (a == b)
 		return (1);
 	else if (a > b)
-		pmf(a, b + 1);	
+		pmf(a, b + 1);
 	return (1);
 }
 /**
