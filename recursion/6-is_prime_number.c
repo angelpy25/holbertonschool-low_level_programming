@@ -16,6 +16,7 @@ int pmf(int a, int b)
 	else if (a > b)
 		return (pmf(a, b + 1));
 	return (1);
+}
 /**
  * is_prime_number - return the prime number
  * @n: number given
