@@ -16,7 +16,6 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
-	else
 		int num1 = atoi(argv[1]);
 		int num2 = atoi(argv[2]);
 
