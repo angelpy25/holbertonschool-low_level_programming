@@ -7,7 +7,7 @@
  * Return: NULL or the direction of the duplicate string
  */
 
-char *strdup(char *str)
+char *_strdup(char *str)
 {
 	char *c;
 	int i, j;
